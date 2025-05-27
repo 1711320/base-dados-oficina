@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="4708DF36-C8DA-296F-D1AA-B6F83C80FD29" mainViewID="5BB186F7-D616-A403-560B-9028C65CE012">
+<createdBy>cooki</createdBy>
+<createdTime>2025-05-27 00:20:25 UTC</createdTime>
+<ownerDesignName>trabalho</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

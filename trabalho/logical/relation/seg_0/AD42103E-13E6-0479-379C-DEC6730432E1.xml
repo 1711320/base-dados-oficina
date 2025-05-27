@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_2" directorySegmentName="seg_0" id="AD42103E-13E6-0479-379C-DEC6730432E1">
+<createdBy>cooki</createdBy>
+<createdTime>2025-05-27 00:21:23 UTC</createdTime>
+<ownerDesignName>trabalho</ownerDesignName>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>39CED4AC-C961-8AFB-4ADC-A5D7D96A66C0</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>13BAE825-468B-740B-AD86-88E9F72339C4</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
