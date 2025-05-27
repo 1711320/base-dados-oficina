@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C296F288-1855-9D13-8ED7-F4F299EBC26A" name="Relation_9">
+<createdBy>cooki</createdBy>
+<createdTime>2025-05-27 00:29:08 UTC</createdTime>
+<ownerDesignName>trabalho</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Reparo_Reparo_ID" id="6C9DE91F-335C-20B4-EF86-E510B6412124">
+<createdBy>cooki</createdBy>
+<createdTime>2025-05-27 00:29:08 UTC</createdTime>
+<ownerDesignName>trabalho</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="150C11B1-4AB2-EBA9-2463-4C414C309C31" referredColumn="BF117B85-02EA-3C08-B05F-6A098C054CC4"/>
+</associations>
+</Column>
+<Column name="Peças_Peças_ID" id="B9DD3B27-9117-7853-8357-EB5125638E9E">
+<createdBy>cooki</createdBy>
+<createdTime>2025-05-27 00:29:08 UTC</createdTime>
+<ownerDesignName>trabalho</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FC503AEF-3577-5D0B-0DA0-49F12BCDEEBE" referredColumn="8B56C96B-161B-0B37-A00E-DFE9B736657A"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B1C41DDF-1226-9221-C6E9-2EE4EA7B3CC5" name="Relation_9_PK">
+<createdBy>cooki</createdBy>
+<createdTime>2025-05-27 00:29:08 UTC</createdTime>
+<ownerDesignName>trabalho</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6C9DE91F-335C-20B4-EF86-E510B6412124"/>
+<colUsage columnID="B9DD3B27-9117-7853-8357-EB5125638E9E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="368A8C9C-7482-89C2-2A87-5DA35CB94507" name="Relation_9_Reparo_FK">
+<createdBy>cooki</createdBy>
+<createdTime>2025-05-27 00:29:08 UTC</createdTime>
+<generatorID>D2220AA0-D8E9-95A6-FA8C-2A68408BD0FC</generatorID>
+<ownerDesignName>trabalho</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6C9DE91F-335C-20B4-EF86-E510B6412124"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9E0EAF10-BF18-773B-A82E-775936CD7223" name="Relation_9_Peças_FK">
+<createdBy>cooki</createdBy>
+<createdTime>2025-05-27 00:29:08 UTC</createdTime>
+<generatorID>D2220AA0-D8E9-95A6-FA8C-2A68408BD0FC</generatorID>
+<ownerDesignName>trabalho</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B9DD3B27-9117-7853-8357-EB5125638E9E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

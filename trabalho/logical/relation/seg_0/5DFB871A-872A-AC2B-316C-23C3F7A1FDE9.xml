@@ -1,10 +1,10 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_4" directorySegmentName="seg_0" id="450BB3E6-C52C-11B5-2458-8017AC14B42F">
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_10" directorySegmentName="seg_0" id="5DFB871A-872A-AC2B-316C-23C3F7A1FDE9">
 <createdBy>cooki</createdBy>
-<createdTime>2025-05-27 00:21:30 UTC</createdTime>
+<createdTime>2025-05-27 00:25:07 UTC</createdTime>
 <ownerDesignName>trabalho</ownerDesignName>
 <identifying>false</identifying>
-<optionalSource>true</optionalSource>
+<optionalSource>false</optionalSource>
 <optionalTarget>false</optionalTarget>
 <sourceCardinality>*</sourceCardinality>
 <sourceEntity>5ABC9918-C292-A148-11BC-CC63A06712C0</sourceEntity>
