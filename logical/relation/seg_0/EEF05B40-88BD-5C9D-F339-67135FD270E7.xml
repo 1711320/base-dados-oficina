@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="uso_pecas" directorySegmentName="seg_0" id="EEF05B40-88BD-5C9D-F339-67135FD270E7">
+<createdBy>cooki</createdBy>
+<createdTime>2025-05-14 20:12:08 UTC</createdTime>
+<ownerDesignName>trabalho</ownerDesignName>
+<engineerTo>
+<item key="A6B64EF6-4AD3-0287-3137-4201C2B04D16" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>2E10934E-57C3-140C-576D-7BFD1FAD1E9B</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>6CA328D1-E370-1AFF-14CD-277345CB20B9</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

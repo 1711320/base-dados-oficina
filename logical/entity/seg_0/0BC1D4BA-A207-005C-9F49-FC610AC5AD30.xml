@@ -1,0 +1,70 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0BC1D4BA-A207-005C-9F49-FC610AC5AD30" name="Cliente">
+<createdBy>cooki</createdBy>
+<createdTime>2025-05-14 20:05:46 UTC</createdTime>
+<ownerDesignName>trabalho</ownerDesignName>
+<engineerTo>
+<item key="A6B64EF6-4AD3-0287-3137-4201C2B04D16" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_cliente" id="1C4C275C-D767-1655-1C62-A28B71C8C7B5">
+<createdBy>cooki</createdBy>
+<createdTime>2025-05-14 20:21:37 UTC</createdTime>
+<ownerDesignName>trabalho</ownerDesignName>
+<engineerTo>
+<item key="A6B64EF6-4AD3-0287-3137-4201C2B04D16" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nome" id="E4392946-F43D-36F9-1F3B-2A04349BD2C4">
+<createdBy>cooki</createdBy>
+<createdTime>2025-05-14 20:21:54 UTC</createdTime>
+<ownerDesignName>trabalho</ownerDesignName>
+<engineerTo>
+<item key="A6B64EF6-4AD3-0287-3137-4201C2B04D16" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="telefone" id="98C7AD12-358D-3CF4-71EA-BD08AD0EA74C">
+<createdBy>cooki</createdBy>
+<createdTime>2025-05-14 20:22:06 UTC</createdTime>
+<ownerDesignName>trabalho</ownerDesignName>
+<engineerTo>
+<item key="A6B64EF6-4AD3-0287-3137-4201C2B04D16" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="76888CBD-3A50-093F-C6C0-A017B7F2F780" name="Cliente PK">
+<createdBy>cooki</createdBy>
+<createdTime>2025-05-14 20:21:52 UTC</createdTime>
+<ownerDesignName>trabalho</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="A6B64EF6-4AD3-0287-3137-4201C2B04D16" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>1C4C275C-D767-1655-1C62-A28B71C8C7B5</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

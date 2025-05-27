@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8E4F3594-81A9-8CB3-CB3E-9F9A4D6EFC40" name="uso_pecas">
+<createdBy>cooki</createdBy>
+<createdTime>2025-05-14 20:26:19 UTC</createdTime>
+<ownerDesignName>trabalho</ownerDesignName>
+<ordsAlias>relation_5</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Peças_id_peca" id="AC06A3AE-95B4-FB59-297E-D89B0B9568A9">
+<createdBy>cooki</createdBy>
+<createdTime>2025-05-14 20:26:19 UTC</createdTime>
+<ownerDesignName>trabalho</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0FC93C7E-9FD7-35C7-FF44-34A5A04D09A0" referredColumn="B6D8312A-43BB-B843-9E45-C5542AEF4FDD"/>
+</associations>
+</Column>
+<Column name="Carro_id_carro" id="C9504D2D-E092-4A5F-A530-D1248E0CDA3E">
+<createdBy>cooki</createdBy>
+<createdTime>2025-05-14 20:26:19 UTC</createdTime>
+<ownerDesignName>trabalho</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="758E97DA-3F41-609A-8D5A-359ED1C52A10" referredColumn="AC09F908-F718-E0DF-B6F4-EFDA244D31BA"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4C6C4EE3-979F-AC86-57F4-30C015255E85" name="Relation_5_PK">
+<createdBy>cooki</createdBy>
+<createdTime>2025-05-14 20:26:19 UTC</createdTime>
+<ownerDesignName>trabalho</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AC06A3AE-95B4-FB59-297E-D89B0B9568A9"/>
+<colUsage columnID="C9504D2D-E092-4A5F-A530-D1248E0CDA3E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="43F0F0B1-B344-74C1-9657-545638D17D43" name="Relation_5_Peças_FK">
+<createdBy>cooki</createdBy>
+<createdTime>2025-05-14 20:26:19 UTC</createdTime>
+<generatorID>EEF05B40-88BD-5C9D-F339-67135FD270E7</generatorID>
+<ownerDesignName>trabalho</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AC06A3AE-95B4-FB59-297E-D89B0B9568A9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="20BC86DA-7912-C2C4-8362-C16CDD1AE24D" name="Relation_5_Carro_FK">
+<createdBy>cooki</createdBy>
+<createdTime>2025-05-14 20:26:19 UTC</createdTime>
+<generatorID>EEF05B40-88BD-5C9D-F339-67135FD270E7</generatorID>
+<ownerDesignName>trabalho</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C9504D2D-E092-4A5F-A530-D1248E0CDA3E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

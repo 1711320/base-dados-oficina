@@ -1,0 +1,135 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6CFFA74A-3628-017E-4C34-87771905380D" name="Carro">
+<createdBy>cooki</createdBy>
+<createdTime>2025-05-14 20:26:19 UTC</createdTime>
+<generatorID>6CA328D1-E370-1AFF-14CD-277345CB20B9</generatorID>
+<ownerDesignName>trabalho</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_carro" id="AC09F908-F718-E0DF-B6F4-EFDA244D31BA">
+<createdBy>cooki</createdBy>
+<createdTime>2025-05-14 20:26:19 UTC</createdTime>
+<generatorID>6C52EC81-E9F8-3AC5-397E-8F978A49DB96</generatorID>
+<ownerDesignName>trabalho</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="marca" id="F1D91299-254D-15BA-5D85-6CFC47B512C2">
+<createdBy>cooki</createdBy>
+<createdTime>2025-05-14 20:26:19 UTC</createdTime>
+<generatorID>A0C8D42F-6A58-97B1-94BD-D61CB68C5148</generatorID>
+<ownerDesignName>trabalho</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="matricula" id="31E92854-E343-FE2E-43BB-D4C9887BC9D0">
+<createdBy>cooki</createdBy>
+<createdTime>2025-05-14 20:26:19 UTC</createdTime>
+<generatorID>685099AD-4007-4867-0D12-48FD883902A1</generatorID>
+<ownerDesignName>trabalho</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cor" id="4C0532FC-9F81-F897-D583-0A3E280A6B19">
+<createdBy>cooki</createdBy>
+<createdTime>2025-05-14 20:26:19 UTC</createdTime>
+<generatorID>986FBAB5-9A73-020F-1045-5EAAAD604B0A</generatorID>
+<ownerDesignName>trabalho</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="modelo" id="738DF648-CDC4-591A-6466-C323DBEABFBC">
+<createdBy>cooki</createdBy>
+<createdTime>2025-05-14 20:26:19 UTC</createdTime>
+<generatorID>18D9E684-8DA0-DA36-370B-7ADD26E76A43</generatorID>
+<ownerDesignName>trabalho</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Mecanico_id_mecanico" id="F4687683-3B50-8AF7-166B-2589BF609099">
+<createdBy>cooki</createdBy>
+<createdTime>2025-05-14 20:26:19 UTC</createdTime>
+<generatorID>0BE7AE84-02AE-D6DC-9EEA-E7677C747E92</generatorID>
+<ownerDesignName>trabalho</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1D661D78-990F-547D-9293-D54228096447" referredColumn="A838B432-7C44-50CD-8710-A0C5176A089A"/>
+</associations>
+</Column>
+<Column name="Cliente_id_cliente" id="F1CAD10B-1F03-303F-8CBE-FA5CBB1C390B">
+<createdBy>cooki</createdBy>
+<createdTime>2025-05-14 20:31:49 UTC</createdTime>
+<generatorID>ED50ECBE-6941-8F3D-44A1-910317C40F35</generatorID>
+<ownerDesignName>trabalho</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EA585508-F2C1-4462-6116-85B7E909560D" referredColumn="0C35FB81-22EC-AD49-01CE-6952710113CF"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0B775FBC-6426-364A-3E9F-70E0B890B1FD" name="Carro_PK">
+<createdBy>cooki</createdBy>
+<createdTime>2025-05-14 20:26:19 UTC</createdTime>
+<generatorID>48352CCE-F555-5767-FA35-29508CAF3012</generatorID>
+<ownerDesignName>trabalho</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AC09F908-F718-E0DF-B6F4-EFDA244D31BA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FB7BAF71-4D58-3115-B4F5-196071C63F48" name="Carro_Mecanico_FK">
+<createdBy>cooki</createdBy>
+<createdTime>2025-05-14 20:26:19 UTC</createdTime>
+<generatorID>3B1EAD19-398E-1B19-3AA7-D3F1B7E6508B</generatorID>
+<ownerDesignName>trabalho</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F4687683-3B50-8AF7-166B-2589BF609099"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D76DDBF8-C724-F12F-5EB8-7170DA5B646F" name="Carro_Cliente_FK">
+<createdBy>cooki</createdBy>
+<createdTime>2025-05-14 20:31:49 UTC</createdTime>
+<generatorID>572BCC8C-B411-297F-3428-FC0CB1904BD7</generatorID>
+<ownerDesignName>trabalho</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F1CAD10B-1F03-303F-8CBE-FA5CBB1C390B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

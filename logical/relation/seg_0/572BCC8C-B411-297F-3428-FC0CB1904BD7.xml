@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Dono" directorySegmentName="seg_0" id="572BCC8C-B411-297F-3428-FC0CB1904BD7">
+<createdBy>cooki</createdBy>
+<createdTime>2025-05-14 20:08:05 UTC</createdTime>
+<ownerDesignName>trabalho</ownerDesignName>
+<engineerTo>
+<item key="A6B64EF6-4AD3-0287-3137-4201C2B04D16" value="true"/>
+</engineerTo>
+<sourcePk>76888CBD-3A50-093F-C6C0-A017B7F2F780</sourcePk>
+<targetPk>48352CCE-F555-5767-FA35-29508CAF3012</targetPk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>0BC1D4BA-A207-005C-9F49-FC610AC5AD30</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>6CA328D1-E370-1AFF-14CD-277345CB20B9</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,124 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="6CA328D1-E370-1AFF-14CD-277345CB20B9" name="Carro">
+<createdBy>cooki</createdBy>
+<createdTime>2025-05-14 20:05:54 UTC</createdTime>
+<ownerDesignName>trabalho</ownerDesignName>
+<engineerTo>
+<item key="A6B64EF6-4AD3-0287-3137-4201C2B04D16" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_carro" id="6C52EC81-E9F8-3AC5-397E-8F978A49DB96">
+<createdBy>cooki</createdBy>
+<createdTime>2025-05-14 20:22:20 UTC</createdTime>
+<ownerDesignName>trabalho</ownerDesignName>
+<engineerTo>
+<item key="A6B64EF6-4AD3-0287-3137-4201C2B04D16" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="marca" id="A0C8D42F-6A58-97B1-94BD-D61CB68C5148">
+<createdBy>cooki</createdBy>
+<createdTime>2025-05-14 20:22:51 UTC</createdTime>
+<ownerDesignName>trabalho</ownerDesignName>
+<engineerTo>
+<item key="A6B64EF6-4AD3-0287-3137-4201C2B04D16" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="matricula" id="685099AD-4007-4867-0D12-48FD883902A1">
+<createdBy>cooki</createdBy>
+<createdTime>2025-05-14 20:22:58 UTC</createdTime>
+<ownerDesignName>trabalho</ownerDesignName>
+<engineerTo>
+<item key="A6B64EF6-4AD3-0287-3137-4201C2B04D16" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cor" id="986FBAB5-9A73-020F-1045-5EAAAD604B0A">
+<createdBy>cooki</createdBy>
+<createdTime>2025-05-14 20:23:09 UTC</createdTime>
+<ownerDesignName>trabalho</ownerDesignName>
+<engineerTo>
+<item key="A6B64EF6-4AD3-0287-3137-4201C2B04D16" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="modelo" id="18D9E684-8DA0-DA36-370B-7ADD26E76A43">
+<createdBy>cooki</createdBy>
+<createdTime>2025-05-14 20:23:20 UTC</createdTime>
+<ownerDesignName>trabalho</ownerDesignName>
+<engineerTo>
+<item key="A6B64EF6-4AD3-0287-3137-4201C2B04D16" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_mecanico" id="0BE7AE84-02AE-D6DC-9EEA-E7677C747E92">
+<createdBy>cooki</createdBy>
+<createdTime>2025-05-14 20:23:41 UTC</createdTime>
+<generatorID>3B1EAD19-398E-1B19-3AA7-D3F1B7E6508B</generatorID>
+<ownerDesignName>trabalho</ownerDesignName>
+<engineerTo>
+<item key="A6B64EF6-4AD3-0287-3137-4201C2B04D16" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>73452518-3789-222F-FF72-0EC301845AB1</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_cliente" id="ED50ECBE-6941-8F3D-44A1-910317C40F35">
+<createdBy>cooki</createdBy>
+<createdTime>2025-05-14 20:31:34 UTC</createdTime>
+<generatorID>572BCC8C-B411-297F-3428-FC0CB1904BD7</generatorID>
+<ownerDesignName>trabalho</ownerDesignName>
+<engineerTo>
+<item key="A6B64EF6-4AD3-0287-3137-4201C2B04D16" value="true"/>
+</engineerTo>
+<referedAttribute>1C4C275C-D767-1655-1C62-A28B71C8C7B5</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="48352CCE-F555-5767-FA35-29508CAF3012" name="Carro PK">
+<createdBy>cooki</createdBy>
+<createdTime>2025-05-14 20:22:27 UTC</createdTime>
+<ownerDesignName>trabalho</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="A6B64EF6-4AD3-0287-3137-4201C2B04D16" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>6C52EC81-E9F8-3AC5-397E-8F978A49DB96</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

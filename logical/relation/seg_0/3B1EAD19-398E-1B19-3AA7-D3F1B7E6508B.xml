@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Reparo" directorySegmentName="seg_0" id="3B1EAD19-398E-1B19-3AA7-D3F1B7E6508B">
+<createdBy>cooki</createdBy>
+<createdTime>2025-05-14 20:10:45 UTC</createdTime>
+<ownerDesignName>trabalho</ownerDesignName>
+<engineerTo>
+<item key="A6B64EF6-4AD3-0287-3137-4201C2B04D16" value="true"/>
+</engineerTo>
+<sourcePk>DCE28522-C532-2610-8E08-6F39702725A0</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>A067F2AA-66DC-AFDE-9015-20813D21BC5A</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>6CA328D1-E370-1AFF-14CD-277345CB20B9</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
