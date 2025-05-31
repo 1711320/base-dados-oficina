@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="68901A3A-21D7-2A7E-334B-D767152CEC21" containerWithKeyObject="E8FEAE9D-D006-F6CC-0B8B-5648B0CD6331" localFKIndex="E17CB302-528E-6CC3-E275-E3F4115EE7A2" name="Relation_10_Reparo_FK">
+<createdBy>cooki</createdBy>
+<createdTime>2025-05-31 00:56:02 UTC</createdTime>
+<generatorID>5DFB871A-872A-AC2B-316C-23C3F7A1FDE9</generatorID>
+<ownerDesignName>trabalho</ownerDesignName>
+<referredTableLongName>Reparo</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>B2785E6C-7C94-A584-AFB7-5A0CE6788D0B</referredTableID>
+<keyObject>84CBA151-79BE-EFC2-F8AE-006661872756</keyObject>
+<referredKeyID>84CBA151-79BE-EFC2-F8AE-006661872756</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_reparo</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

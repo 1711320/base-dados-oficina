@@ -1,0 +1,93 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="039CD2A9-42BA-EE90-E772-E31FF5CC430D" name="Peças">
+<createdBy>cooki</createdBy>
+<createdTime>2025-05-31 00:56:02 UTC</createdTime>
+<generatorID>D63C9FFA-7DE0-285C-7B26-B8F120D37D76</generatorID>
+<ownerDesignName>trabalho</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_peça" id="73DAC23C-20A4-C0ED-5F4F-4D19147D9BD4">
+<createdBy>cooki</createdBy>
+<createdTime>2025-05-31 00:56:02 UTC</createdTime>
+<generatorID>C9A793E7-8576-7310-6B56-161D7328D123</generatorID>
+<ownerDesignName>trabalho</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nome" id="BCA13A59-06FD-E03D-D071-E7142AAD2AF3">
+<createdBy>cooki</createdBy>
+<createdTime>2025-05-31 00:56:02 UTC</createdTime>
+<generatorID>FE930114-4739-5F36-1AAE-34B8AE5D2EEB</generatorID>
+<ownerDesignName>trabalho</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fabricante" id="8A2C4BE8-3988-308B-60CE-81AAB5094EAD">
+<createdBy>cooki</createdBy>
+<createdTime>2025-05-31 00:56:02 UTC</createdTime>
+<generatorID>3BC6EA68-0A6D-B615-5F5F-D6FE11CD93AE</generatorID>
+<ownerDesignName>trabalho</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="valor_unitario" id="F35A2EDC-2687-D235-9DF5-82E68EA64608">
+<createdBy>cooki</createdBy>
+<createdTime>2025-05-31 00:56:02 UTC</createdTime>
+<generatorID>D13A4A8F-8409-EEA1-3E60-8C3261802029</generatorID>
+<ownerDesignName>trabalho</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="stock" id="2AD566F1-54C6-8532-1353-7DAE97331652">
+<createdBy>cooki</createdBy>
+<createdTime>2025-05-31 00:56:02 UTC</createdTime>
+<generatorID>2D3BE293-33B2-4425-63DC-44DA7A42A196</generatorID>
+<ownerDesignName>trabalho</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="descriçao" id="E1822BFC-6637-67AF-56CD-1B4553C5CF5F">
+<createdBy>cooki</createdBy>
+<createdTime>2025-05-31 00:56:02 UTC</createdTime>
+<generatorID>988D51E9-108C-97EC-D2F4-1D2495802C55</generatorID>
+<ownerDesignName>trabalho</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="788AC29E-2A1F-DBAD-AA8A-590AEAB27218" name="Peças_PK">
+<createdBy>cooki</createdBy>
+<createdTime>2025-05-31 00:56:02 UTC</createdTime>
+<generatorID>5BEB1534-A7DC-8E78-87DA-5AE3369389E0</generatorID>
+<ownerDesignName>trabalho</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="73DAC23C-20A4-C0ED-5F4F-4D19147D9BD4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

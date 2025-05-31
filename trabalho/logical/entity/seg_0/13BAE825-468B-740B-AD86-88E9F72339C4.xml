@@ -1,8 +1,12 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="13BAE825-468B-740B-AD86-88E9F72339C4" name="Carri">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="13BAE825-468B-740B-AD86-88E9F72339C4" name="Carro">
 <createdBy>cooki</createdBy>
 <createdTime>2025-05-27 00:20:52 UTC</createdTime>
 <ownerDesignName>trabalho</ownerDesignName>
+<engineerTo>
+<item key="77196230-942A-F777-3989-B96D2698CEC2" value="true"/>
+<item key="411D58FD-011E-934E-D0E2-4077B8F08982" value="true"/>
+</engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
 <fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
@@ -11,4 +15,132 @@
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_cliente" id="F01FB59C-EC31-3AE2-DDA3-1EB6246913F1">
+<createdBy>cooki</createdBy>
+<createdTime>2025-05-31 00:14:23 UTC</createdTime>
+<generatorID>74BA3C2A-88AF-CE0F-E0EE-B36B01567916</generatorID>
+<ownerDesignName>trabalho</ownerDesignName>
+<engineerTo>
+<item key="77196230-942A-F777-3989-B96D2698CEC2" value="true"/>
+<item key="411D58FD-011E-934E-D0E2-4077B8F08982" value="true"/>
+</engineerTo>
+<referedAttribute>7A521972-6FE4-F24E-8653-D72126894E69</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_carro" id="9EEAB055-1D1D-CA68-CCAD-69BDD9B5283D">
+<createdBy>cooki</createdBy>
+<createdTime>2025-05-31 00:16:09 UTC</createdTime>
+<ownerDesignName>trabalho</ownerDesignName>
+<engineerTo>
+<item key="77196230-942A-F777-3989-B96D2698CEC2" value="true"/>
+<item key="411D58FD-011E-934E-D0E2-4077B8F08982" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="marca" id="D2E2320F-106A-6FA1-17D4-C23E49C7AD60">
+<createdBy>cooki</createdBy>
+<createdTime>2025-05-31 00:16:37 UTC</createdTime>
+<ownerDesignName>trabalho</ownerDesignName>
+<engineerTo>
+<item key="77196230-942A-F777-3989-B96D2698CEC2" value="true"/>
+<item key="411D58FD-011E-934E-D0E2-4077B8F08982" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="modelo" id="9B8EF8C3-A39C-1B69-F068-7E2E0E2BEE4B">
+<createdBy>cooki</createdBy>
+<createdTime>2025-05-31 00:16:52 UTC</createdTime>
+<ownerDesignName>trabalho</ownerDesignName>
+<engineerTo>
+<item key="77196230-942A-F777-3989-B96D2698CEC2" value="true"/>
+<item key="411D58FD-011E-934E-D0E2-4077B8F08982" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ano" id="EBEA3C79-E2A8-CD4E-7222-3598A40AE25D">
+<createdBy>cooki</createdBy>
+<createdTime>2025-05-31 00:17:02 UTC</createdTime>
+<ownerDesignName>trabalho</ownerDesignName>
+<engineerTo>
+<item key="77196230-942A-F777-3989-B96D2698CEC2" value="true"/>
+<item key="411D58FD-011E-934E-D0E2-4077B8F08982" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="matricula" id="CDF57681-1899-81C2-481D-02F2D9D101C6">
+<createdBy>cooki</createdBy>
+<createdTime>2025-05-31 00:17:15 UTC</createdTime>
+<ownerDesignName>trabalho</ownerDesignName>
+<engineerTo>
+<item key="77196230-942A-F777-3989-B96D2698CEC2" value="true"/>
+<item key="411D58FD-011E-934E-D0E2-4077B8F08982" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cor" id="685FA0D8-0AF7-F056-0D93-BE6AABB48A5F">
+<createdBy>cooki</createdBy>
+<createdTime>2025-05-31 00:17:25 UTC</createdTime>
+<ownerDesignName>trabalho</ownerDesignName>
+<engineerTo>
+<item key="77196230-942A-F777-3989-B96D2698CEC2" value="true"/>
+<item key="411D58FD-011E-934E-D0E2-4077B8F08982" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_reparo" id="32A71EE6-1C1A-E44F-0BA3-B5E6962769CA">
+<createdBy>cooki</createdBy>
+<createdTime>2025-05-31 00:18:01 UTC</createdTime>
+<generatorID>2F2FA710-5F69-1C39-AA27-464289D901BA</generatorID>
+<ownerDesignName>trabalho</ownerDesignName>
+<engineerTo>
+<item key="77196230-942A-F777-3989-B96D2698CEC2" value="true"/>
+<item key="411D58FD-011E-934E-D0E2-4077B8F08982" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>2D753D62-5A3C-C07E-7DF2-BD03DD20C7EB</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="8A7FF4E1-D7A1-BB0F-C8DF-136C215EA921" name="Carri PK">
+<createdBy>cooki</createdBy>
+<createdTime>2025-05-31 00:16:17 UTC</createdTime>
+<ownerDesignName>trabalho</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="77196230-942A-F777-3989-B96D2698CEC2" value="false"/>
+<item key="411D58FD-011E-934E-D0E2-4077B8F08982" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>9EEAB055-1D1D-CA68-CCAD-69BDD9B5283D</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
 </Entity>

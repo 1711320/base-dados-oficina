@@ -3,6 +3,10 @@
 <createdBy>cooki</createdBy>
 <createdTime>2025-05-27 00:21:14 UTC</createdTime>
 <ownerDesignName>trabalho</ownerDesignName>
+<engineerTo>
+<item key="77196230-942A-F777-3989-B96D2698CEC2" value="true"/>
+<item key="411D58FD-011E-934E-D0E2-4077B8F08982" value="true"/>
+</engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
 <fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
@@ -11,4 +15,100 @@
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_peça" id="C9A793E7-8576-7310-6B56-161D7328D123">
+<createdBy>cooki</createdBy>
+<createdTime>2025-05-31 00:20:41 UTC</createdTime>
+<ownerDesignName>trabalho</ownerDesignName>
+<engineerTo>
+<item key="77196230-942A-F777-3989-B96D2698CEC2" value="true"/>
+<item key="411D58FD-011E-934E-D0E2-4077B8F08982" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nome" id="FE930114-4739-5F36-1AAE-34B8AE5D2EEB">
+<createdBy>cooki</createdBy>
+<createdTime>2025-05-31 00:20:49 UTC</createdTime>
+<ownerDesignName>trabalho</ownerDesignName>
+<engineerTo>
+<item key="77196230-942A-F777-3989-B96D2698CEC2" value="true"/>
+<item key="411D58FD-011E-934E-D0E2-4077B8F08982" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fabricante" id="3BC6EA68-0A6D-B615-5F5F-D6FE11CD93AE">
+<createdBy>cooki</createdBy>
+<createdTime>2025-05-31 00:20:57 UTC</createdTime>
+<ownerDesignName>trabalho</ownerDesignName>
+<engineerTo>
+<item key="77196230-942A-F777-3989-B96D2698CEC2" value="true"/>
+<item key="411D58FD-011E-934E-D0E2-4077B8F08982" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="valor_unitario" id="D13A4A8F-8409-EEA1-3E60-8C3261802029">
+<createdBy>cooki</createdBy>
+<createdTime>2025-05-31 00:21:14 UTC</createdTime>
+<ownerDesignName>trabalho</ownerDesignName>
+<engineerTo>
+<item key="77196230-942A-F777-3989-B96D2698CEC2" value="true"/>
+<item key="411D58FD-011E-934E-D0E2-4077B8F08982" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="stock" id="2D3BE293-33B2-4425-63DC-44DA7A42A196">
+<createdBy>cooki</createdBy>
+<createdTime>2025-05-31 00:21:27 UTC</createdTime>
+<ownerDesignName>trabalho</ownerDesignName>
+<engineerTo>
+<item key="77196230-942A-F777-3989-B96D2698CEC2" value="true"/>
+<item key="411D58FD-011E-934E-D0E2-4077B8F08982" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="descriçao" id="988D51E9-108C-97EC-D2F4-1D2495802C55">
+<createdBy>cooki</createdBy>
+<createdTime>2025-05-31 00:21:36 UTC</createdTime>
+<ownerDesignName>trabalho</ownerDesignName>
+<engineerTo>
+<item key="77196230-942A-F777-3989-B96D2698CEC2" value="true"/>
+<item key="411D58FD-011E-934E-D0E2-4077B8F08982" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="5BEB1534-A7DC-8E78-87DA-5AE3369389E0" name="Peças PK">
+<createdBy>cooki</createdBy>
+<createdTime>2025-05-31 00:20:48 UTC</createdTime>
+<ownerDesignName>trabalho</ownerDesignName>
+<engineerTo>
+<item key="77196230-942A-F777-3989-B96D2698CEC2" value="true"/>
+<item key="411D58FD-011E-934E-D0E2-4077B8F08982" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>C9A793E7-8576-7310-6B56-161D7328D123</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
 </Entity>

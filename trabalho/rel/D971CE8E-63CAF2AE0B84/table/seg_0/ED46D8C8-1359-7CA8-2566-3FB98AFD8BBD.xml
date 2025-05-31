@@ -1,0 +1,146 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="ED46D8C8-1359-7CA8-2566-3FB98AFD8BBD" name="Carro">
+<createdBy>cooki</createdBy>
+<createdTime>2025-05-31 00:56:02 UTC</createdTime>
+<generatorID>13BAE825-468B-740B-AD86-88E9F72339C4</generatorID>
+<ownerDesignName>trabalho</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Cliente_id_cliente" id="4D5DBAA7-8B18-AFC6-FAE5-14E5135448E1">
+<createdBy>cooki</createdBy>
+<createdTime>2025-05-31 00:56:02 UTC</createdTime>
+<generatorID>F01FB59C-EC31-3AE2-DDA3-1EB6246913F1</generatorID>
+<ownerDesignName>trabalho</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9FC8B1C1-08A6-C8B8-7C23-67CE567FC5E3" referredColumn="B1C7087D-363C-5546-C225-C44B8CBD7D5B"/>
+</associations>
+</Column>
+<Column name="id_carro" id="32ECEED8-3651-FD7B-3642-63410D30201C">
+<createdBy>cooki</createdBy>
+<createdTime>2025-05-31 00:56:02 UTC</createdTime>
+<generatorID>9EEAB055-1D1D-CA68-CCAD-69BDD9B5283D</generatorID>
+<ownerDesignName>trabalho</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="marca" id="B4789E5D-5472-5152-1FB8-9BD4F5299675">
+<createdBy>cooki</createdBy>
+<createdTime>2025-05-31 00:56:02 UTC</createdTime>
+<generatorID>D2E2320F-106A-6FA1-17D4-C23E49C7AD60</generatorID>
+<ownerDesignName>trabalho</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="modelo" id="C49D89AE-94FC-4028-B191-8FACEDB42519">
+<createdBy>cooki</createdBy>
+<createdTime>2025-05-31 00:56:02 UTC</createdTime>
+<generatorID>9B8EF8C3-A39C-1B69-F068-7E2E0E2BEE4B</generatorID>
+<ownerDesignName>trabalho</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ano" id="9D546742-442E-9AE0-2888-88F412885E26">
+<createdBy>cooki</createdBy>
+<createdTime>2025-05-31 00:56:02 UTC</createdTime>
+<generatorID>EBEA3C79-E2A8-CD4E-7222-3598A40AE25D</generatorID>
+<ownerDesignName>trabalho</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="matricula" id="3255883C-D2AA-D1DC-676A-765DC47FF01C">
+<createdBy>cooki</createdBy>
+<createdTime>2025-05-31 00:56:02 UTC</createdTime>
+<generatorID>CDF57681-1899-81C2-481D-02F2D9D101C6</generatorID>
+<ownerDesignName>trabalho</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cor" id="B2831E7A-5868-2756-352E-671D87FD5289">
+<createdBy>cooki</createdBy>
+<createdTime>2025-05-31 00:56:02 UTC</createdTime>
+<generatorID>685FA0D8-0AF7-F056-0D93-BE6AABB48A5F</generatorID>
+<ownerDesignName>trabalho</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Reparo_id_reparo" id="0BAC9CC1-AA47-0D97-96B1-0DEAC482BED8">
+<createdBy>cooki</createdBy>
+<createdTime>2025-05-31 00:56:02 UTC</createdTime>
+<generatorID>32A71EE6-1C1A-E44F-0BA3-B5E6962769CA</generatorID>
+<ownerDesignName>trabalho</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BF6F4CBD-2F5F-FA37-940C-29C10DBF9450" referredColumn="882F3B71-E11A-D2BC-5C1E-C4EA09EF5A92"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6FF2BE03-A478-F1A3-C88A-017F7788879A" name="Carro_PK">
+<createdBy>cooki</createdBy>
+<createdTime>2025-05-31 00:56:02 UTC</createdTime>
+<generatorID>8A7FF4E1-D7A1-BB0F-C8DF-136C215EA921</generatorID>
+<ownerDesignName>trabalho</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="32ECEED8-3651-FD7B-3642-63410D30201C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="066F9924-E6E8-A080-4615-9EB38FE04EB2" name="Carro_Cliente_FK">
+<createdBy>cooki</createdBy>
+<createdTime>2025-05-31 00:56:02 UTC</createdTime>
+<generatorID>74BA3C2A-88AF-CE0F-E0EE-B36B01567916</generatorID>
+<ownerDesignName>trabalho</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4D5DBAA7-8B18-AFC6-FAE5-14E5135448E1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6DA4F01D-F6AE-FD62-6A4C-1354B7A6370F" name="Carro_Reparo_FK">
+<createdBy>cooki</createdBy>
+<createdTime>2025-05-31 00:56:02 UTC</createdTime>
+<generatorID>2F2FA710-5F69-1C39-AA27-464289D901BA</generatorID>
+<ownerDesignName>trabalho</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0BAC9CC1-AA47-0D97-96B1-0DEAC482BED8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

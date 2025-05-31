@@ -3,6 +3,10 @@
 <createdBy>cooki</createdBy>
 <createdTime>2025-05-27 00:21:06 UTC</createdTime>
 <ownerDesignName>trabalho</ownerDesignName>
+<engineerTo>
+<item key="77196230-942A-F777-3989-B96D2698CEC2" value="true"/>
+<item key="411D58FD-011E-934E-D0E2-4077B8F08982" value="true"/>
+</engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
 <fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
@@ -11,4 +15,98 @@
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_mecanico" id="610F7740-AA6C-1DB1-5BBB-C2F791B5E9B9">
+<createdBy>cooki</createdBy>
+<createdTime>2025-05-31 00:19:14 UTC</createdTime>
+<ownerDesignName>trabalho</ownerDesignName>
+<engineerTo>
+<item key="77196230-942A-F777-3989-B96D2698CEC2" value="true"/>
+<item key="411D58FD-011E-934E-D0E2-4077B8F08982" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nome" id="318D3260-1AFA-88B6-98AC-CD4780080F70">
+<createdBy>cooki</createdBy>
+<createdTime>2025-05-31 00:19:22 UTC</createdTime>
+<ownerDesignName>trabalho</ownerDesignName>
+<engineerTo>
+<item key="77196230-942A-F777-3989-B96D2698CEC2" value="true"/>
+<item key="411D58FD-011E-934E-D0E2-4077B8F08982" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="telefone" id="AA926F40-81D9-6B54-B624-620FDEB5FF29">
+<createdBy>cooki</createdBy>
+<createdTime>2025-05-31 00:19:30 UTC</createdTime>
+<ownerDesignName>trabalho</ownerDesignName>
+<engineerTo>
+<item key="77196230-942A-F777-3989-B96D2698CEC2" value="true"/>
+<item key="411D58FD-011E-934E-D0E2-4077B8F08982" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="especializacao" id="7884C825-4253-B099-E1FD-343ED1D10CCF">
+<createdBy>cooki</createdBy>
+<createdTime>2025-05-31 00:19:39 UTC</createdTime>
+<ownerDesignName>trabalho</ownerDesignName>
+<engineerTo>
+<item key="77196230-942A-F777-3989-B96D2698CEC2" value="true"/>
+<item key="411D58FD-011E-934E-D0E2-4077B8F08982" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="data_contratacao" id="ED5ADF40-FCF3-3E1B-AB84-828748BEB656">
+<createdBy>cooki</createdBy>
+<createdTime>2025-05-31 00:19:58 UTC</createdTime>
+<ownerDesignName>trabalho</ownerDesignName>
+<engineerTo>
+<item key="77196230-942A-F777-3989-B96D2698CEC2" value="true"/>
+<item key="411D58FD-011E-934E-D0E2-4077B8F08982" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="morada" id="5E54A3E7-A04D-C6E3-2928-451A3A51A8EC">
+<createdBy>cooki</createdBy>
+<createdTime>2025-05-31 00:20:09 UTC</createdTime>
+<ownerDesignName>trabalho</ownerDesignName>
+<engineerTo>
+<item key="77196230-942A-F777-3989-B96D2698CEC2" value="true"/>
+<item key="411D58FD-011E-934E-D0E2-4077B8F08982" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="email" id="30822D63-D9F2-EBD6-D0E4-1811731BC491">
+<createdBy>cooki</createdBy>
+<createdTime>2025-05-31 00:20:25 UTC</createdTime>
+<ownerDesignName>trabalho</ownerDesignName>
+<engineerTo>
+<item key="77196230-942A-F777-3989-B96D2698CEC2" value="true"/>
+<item key="411D58FD-011E-934E-D0E2-4077B8F08982" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
 </Entity>

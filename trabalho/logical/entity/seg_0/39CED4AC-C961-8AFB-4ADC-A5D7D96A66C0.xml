@@ -3,6 +3,9 @@
 <createdBy>cooki</createdBy>
 <createdTime>2025-05-27 00:20:48 UTC</createdTime>
 <ownerDesignName>trabalho</ownerDesignName>
+<engineerTo>
+<item key="411D58FD-011E-934E-D0E2-4077B8F08982" value="true"/>
+</engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
 <fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
@@ -11,4 +14,81 @@
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_cliente" id="7A521972-6FE4-F24E-8653-D72126894E69">
+<createdBy>cooki</createdBy>
+<createdTime>2025-05-31 00:14:11 UTC</createdTime>
+<ownerDesignName>trabalho</ownerDesignName>
+<engineerTo>
+<item key="411D58FD-011E-934E-D0E2-4077B8F08982" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nome" id="C0D240A8-BB81-7DBF-8420-3F694E2FF362">
+<createdBy>cooki</createdBy>
+<createdTime>2025-05-31 00:14:26 UTC</createdTime>
+<ownerDesignName>trabalho</ownerDesignName>
+<engineerTo>
+<item key="411D58FD-011E-934E-D0E2-4077B8F08982" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="telefone" id="7A729B12-160E-86A4-8EDD-46ED49E23E44">
+<createdBy>cooki</createdBy>
+<createdTime>2025-05-31 00:14:43 UTC</createdTime>
+<ownerDesignName>trabalho</ownerDesignName>
+<engineerTo>
+<item key="411D58FD-011E-934E-D0E2-4077B8F08982" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="email" id="DEB150D8-B895-5B1E-E56E-0F71ACCE6272">
+<createdBy>cooki</createdBy>
+<createdTime>2025-05-31 00:14:59 UTC</createdTime>
+<ownerDesignName>trabalho</ownerDesignName>
+<engineerTo>
+<item key="411D58FD-011E-934E-D0E2-4077B8F08982" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="endereço" id="D9C78EC1-2666-A9B3-A442-E5908849F024">
+<createdBy>cooki</createdBy>
+<createdTime>2025-05-31 00:15:10 UTC</createdTime>
+<ownerDesignName>trabalho</ownerDesignName>
+<engineerTo>
+<item key="411D58FD-011E-934E-D0E2-4077B8F08982" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="ECB826D2-D353-8731-3C01-76C4B2CBCF05" name="Cliente PK">
+<createdBy>cooki</createdBy>
+<createdTime>2025-05-31 00:14:22 UTC</createdTime>
+<ownerDesignName>trabalho</ownerDesignName>
+<engineerTo>
+<item key="411D58FD-011E-934E-D0E2-4077B8F08982" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>7A521972-6FE4-F24E-8653-D72126894E69</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
 </Entity>

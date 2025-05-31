@@ -3,6 +3,9 @@
 <createdBy>cooki</createdBy>
 <createdTime>2025-05-27 00:21:00 UTC</createdTime>
 <ownerDesignName>trabalho</ownerDesignName>
+<engineerTo>
+<item key="411D58FD-011E-934E-D0E2-4077B8F08982" value="true"/>
+</engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
 <fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
@@ -11,4 +14,92 @@
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_reparo" id="2D753D62-5A3C-C07E-7DF2-BD03DD20C7EB">
+<createdBy>cooki</createdBy>
+<createdTime>2025-05-31 00:17:45 UTC</createdTime>
+<ownerDesignName>trabalho</ownerDesignName>
+<engineerTo>
+<item key="411D58FD-011E-934E-D0E2-4077B8F08982" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="data_entrada" id="633CD94F-F20D-7D33-CE72-B53D57FBE98D">
+<createdBy>cooki</createdBy>
+<createdTime>2025-05-31 00:18:03 UTC</createdTime>
+<ownerDesignName>trabalho</ownerDesignName>
+<engineerTo>
+<item key="411D58FD-011E-934E-D0E2-4077B8F08982" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="data_saida" id="BBB6CD4B-B263-9996-9675-FDEEB69FE74F">
+<createdBy>cooki</createdBy>
+<createdTime>2025-05-31 00:18:17 UTC</createdTime>
+<ownerDesignName>trabalho</ownerDesignName>
+<engineerTo>
+<item key="411D58FD-011E-934E-D0E2-4077B8F08982" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="descriçao" id="0A18D26C-00B6-1A4B-5202-F617C412D65E">
+<createdBy>cooki</createdBy>
+<createdTime>2025-05-31 00:18:26 UTC</createdTime>
+<ownerDesignName>trabalho</ownerDesignName>
+<engineerTo>
+<item key="411D58FD-011E-934E-D0E2-4077B8F08982" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="preço_reparo" id="E3A99BA2-B43D-5046-EA58-0C777DF2EDEA">
+<createdBy>cooki</createdBy>
+<createdTime>2025-05-31 00:18:35 UTC</createdTime>
+<ownerDesignName>trabalho</ownerDesignName>
+<engineerTo>
+<item key="411D58FD-011E-934E-D0E2-4077B8F08982" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="estado_atual" id="88AFFFF2-3BF7-637C-E463-CB4038B60526">
+<createdBy>cooki</createdBy>
+<createdTime>2025-05-31 00:18:53 UTC</createdTime>
+<ownerDesignName>trabalho</ownerDesignName>
+<engineerTo>
+<item key="411D58FD-011E-934E-D0E2-4077B8F08982" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="678FB0BD-BE29-F46B-CD35-D4EB50A731DB" name="Reparo PK">
+<createdBy>cooki</createdBy>
+<createdTime>2025-05-31 00:17:48 UTC</createdTime>
+<ownerDesignName>trabalho</ownerDesignName>
+<engineerTo>
+<item key="411D58FD-011E-934E-D0E2-4077B8F08982" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>2D753D62-5A3C-C07E-7DF2-BD03DD20C7EB</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
 </Entity>
